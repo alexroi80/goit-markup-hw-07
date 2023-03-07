@@ -182,7 +182,7 @@ html {
   position: absolute;
   top: 96px;
   left: 50%;
-  width: 392px;
+  width: 90vw;
   min-height: 586px;
   padding-top: 76px;
   padding-left: 16px;
@@ -205,7 +205,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
@@ -341,7 +341,7 @@ html {
   margin-bottom: 0;
   font-family: 'Roboto';
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.33;
   letter-spacing: 0.04em;
 
@@ -421,7 +421,11 @@ html {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-
+.team-img{
+  display: block;
+  width: 100%;
+  height:auto;
+}
 .team-item-content {
   
   padding-top: 32px;
@@ -429,6 +433,7 @@ html {
   padding-left: 16px;
   padding-right: 16px;
   background-color: var(--background-color-main);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-member {
   margin-top: 0;
